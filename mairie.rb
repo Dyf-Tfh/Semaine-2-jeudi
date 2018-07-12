@@ -19,7 +19,7 @@ def boucle
   woof.each{ |url|
     puts url
     puts get_email(url)
-    hash.store(get_url, get_email(url))
+    hash.store(url, get_email(url))
   }
   hash
 end
