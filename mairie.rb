@@ -16,7 +16,7 @@ end
 def boucle
   hash = {}
   woof = get_url
-  woof.each{ |url|
+  woof.each { |url|
     puts url
     puts get_email(url)
     hash.store(url, get_email(url))

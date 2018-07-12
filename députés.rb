@@ -31,7 +31,9 @@ def get_first_and_last_name
     array = nom.split
     # hash personel
     hash.store("last_name", array[0])
-    hash.store("first_name", array[1])
+    #drop(1) càd on enlève le prénom, 
+    #puis on join ce qu'il reste càd ça marche avec les noms composés
+    hash.store("first_name", array.drop(1).join(" "))
     hash.store("email", get_email(url_député))
     # hash personal dans le super_array
     puts hash
