@@ -17,12 +17,12 @@ def get_first_and_last_name
   super_array = []
   url.each { |nom|
     hash = {}
-    #get attribute of <a>
-    #prend le href de la liste des attributes
+    # get attribute of <a>
+    # prend le href de la liste des attributes
     url_député_attributes = nom.attributes
     url_député = url_député_attributes["href"]
     url_député = "http://www2.assemblee-nationale.fr" + url_député.to_s
-    #prend le txt à l'intérieur du <a>
+    # prend le txt à l'intérieur du <a>
     nom = nom.text
     # clean nom
     nom.delete_prefix!("M. ")
@@ -31,8 +31,8 @@ def get_first_and_last_name
     array = nom.split
     # hash personel
     hash.store("last_name", array[0])
-    #drop(1) càd on enlève le prénom, 
-    #puis on join ce qu'il reste càd ça marche avec les noms composés
+    # drop(1) càd on enlève le prénom,
+    # puis on join ce qu'il reste càd ça marche avec les noms composés
     hash.store("first_name", array.drop(1).join(" "))
     hash.store("email", get_email(url_député))
     # hash personal dans le super_array
@@ -42,6 +42,4 @@ def get_first_and_last_name
   super_array
 end
 
-get_first_and_last_name
-
-
+puts get_first_and_last_name
