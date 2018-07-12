@@ -1,0 +1,163 @@
+.menu:link {COLOR: ffffff; TEXT-DECORATION: none}
+.menu:visited {COLOR: ffffff; TEXT-DECORATION: none}
+.menu:hover {COLOR: f80052; TEXT-DECORATION: none}
+
+
+/*LES LIENS VERS LES VILLES*/
+.lientxt {font-family: arial, verdana, sans-serif; color:black; font-size: 10px; text-decoration:none; } 
+.lientxt:hover {font-family: arial, verdana, sans-serif; color:#3681E2; font-size: 10px; text-decoration:underline overline; }
+
+/*LES LIENS VERS LES VILLES DANS LA PRESENTATION DE LA COMMMUNE*/
+.lientxt4 {font-family: arial, verdana, sans-serif; color:black; font-size: 13px; text-decoration:none; } 
+.lientxt4:hover {font-family: arial, verdana, sans-serif; color:#3681E2; font-size: 13px; text-decoration:underline overline; }
+
+/*LIENS VERS LES SITES DES COMMUNES*/
+.lientxt2 {font-family: arial, verdana, sans-serif; color:#3F3F3F;; font-size: 13px; text-decoration:none; } 
+.lientxt2:hover {font-family: arial, verdana, sans-serif; color:#3681E2; font-size: 13px; text-decoration:underline overline; }
+
+/*LIENS EN HAUT DE PAGE DANS LE TEXTE*/
+.lientxt3 {font-family: arial, verdana, sans-serif; color:black; font-size: 13px; text-decoration:none; } 
+.lientxt3:hover {font-family: arial, verdana, sans-serif; color:black; font-size: 13px; text-decoration:none; }
+
+/*LIENS H1*/
+.lienh1 {FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #0070C0; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+.lienh1:hover {FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #0070C0; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+
+/*LIENS DANS LES TITRES DES TABLES*/
+.lientitre {FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #FFFFFF; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+.lientitre:hover {FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #FFFFFF; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+
+/*LIENS H1 DANS LES PUBS*/
+.lienh1pub {FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #0070C0; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+.lienh1pub:hover {FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #0070C0; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+
+.Style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+
+.Style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.Style81 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.Style9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.Style10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5e5e5e;
+}
+.Style11 {
+	color: #5e5e5e
+}
+.Style12 {
+	font-size: 10px
+}
+.Style13 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #f80052;
+}
+.Style15 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.Style17 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3F3F3F;
+}
+.Style18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3F3F3F;
+	}
+.Style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f80052;
+}
+.Style20 {
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.Style21 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f80052;
+	font-weight: bold;
+}
+.Style22 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.Style23 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #3F3F3F;
+	font-weight: bold;
+}
+	
+.Style25 {
+	color: #f80052
+}
+.style26 {
+	padding: 5; 
+	border-top-width: 0; 
+	border-right-width: 1; 
+	border-bottom-width: 0; 
+	border-left-width: 1; 
+	border-color: rgb(204,204,204); 
+	border-style: solid;
+}
+.style27 {
+	border-right-width: 1; 
+	border-color: rgb(204,204,204); 
+	border-right-style: solid;
+}
+h1 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 20px; 
+	COLOR: #0070C0;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;  
+}
+h2 {
+	FONT-WEIGHT: normal; 
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+}
+h3 {
+	FONT-WEIGHT: bold; 
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+}
+
+
+body {
+	background-color: #999999;
+}
+
+#partenaires {height:480px; width:638px; overflow:auto;}
+.blanc {color:#fff;}
