@@ -7,7 +7,6 @@ def get_email(url)
   email.text
 end
 
-
 def get_url
   doc = Nokogiri::HTML(open("département.html"))
   url = doc.xpath("//a[@class ='lientxt']/@href")
